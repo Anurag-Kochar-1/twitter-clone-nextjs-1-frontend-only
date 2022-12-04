@@ -121,7 +121,7 @@ function Tweet ( {tweet}:Props ) {
         {commentBoxVisible && (
             <form className='mt-3 flex space-x-3' onSubmit={handleSubmit}>
                 <input
-                    className='flex-1 rounded-lg bg-gray-100 p-2 outline-none' 
+                    className='flex-1 rounded-lg bg-gray-100 p-2 outline-none dark:text-gray-800' 
                     type="text" 
                     placeholder='write a comment'
                     value={input}
